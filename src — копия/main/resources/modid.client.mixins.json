@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "com.example.client.mixin",
+  "refmap": "modid.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityRendererMixin",
+    "ExampleClientMixin",
+    "LightmapMixin",
+    "FogRendererMixin",
+    "ItemInHandRendererMixin",
+    "EntityMixin",
+    "GuiMixin",
+    "LevelRendererMixin",
+    "LivingEntityRendererMixin",
+    "AutoCrouchCritMixin",
+    "ScreenParticlesMixin",
+    "ItemCooldownHudMixin",
+    "CustomImageHudMixin",
+    "LocalPlayerTickMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
